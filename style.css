@@ -1,0 +1,83 @@
+
+body{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(7, 200, 7);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+    
+}
+
+.meu_menu ul li {
+    width: 292px;
+    height: 21px;
+    border-radius: 30px;
+}
+.tu {
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    
+    margin: -0;
+    margin-left: -600px;
+    height: 5vmin;
+}
+.ma{
+
+    display: flex;
+    justify-content:space-around;
+    height: 6vh;
+}
+
+
+a{
+    text-decoration: none;
+
+    text-decoration: solid;
+}
+img{
+    border-radius: 30px;
+    border: double 5px #d7d3d3;
+    margin: 50px;
+    width: 300px;
+    right: 40px
+}
+
+#eu{
+    background-color: aqua;
+    width: 100%;
+}
+
+
+/*configuração e validação do formulario por css*/
+.form{
+    display: block;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(103, 99, 99, 0.5);
+}
+
+
+.form {
+    width: 50%;
+    margin: auto;
+}
+input, textarea{
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    height: 25px;
+    line-height: 5px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 1em;
+    
+}
